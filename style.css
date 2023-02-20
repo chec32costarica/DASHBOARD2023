@@ -1,0 +1,13 @@
+/* Estilos personalizados */
+
+@media (min-width: 992px) {
+    /* Oculta el botón del menú en pantallas grandes */
+    .navbar-toggler {
+      display: none;
+    }
+  }
+  
+  body {
+    padding-bottom: 70px; /* Ajusta el padding inferior del cuerpo para evitar solapamiento con el footer fijo */
+  }
+  
