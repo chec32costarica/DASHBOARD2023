@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>My App</title>
+  <title>EXPROPIACIONES RUTA#32 - 32号公路项目征地目前状态</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -12,20 +12,20 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"">
       <div class="container">
-        <a class="navbar-brand" href="#">EXPROPIACIONES RUTA#32</a>
+        <a class="navbar-brand" href="#">EXPROPIACIONES RUTA#32 - 32号公路项目征地目前状态</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio 主页</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca del Proyecto</a>
+              <a class="nav-link" href="#">Acerca del Proyecto 关于项目</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#">Contacto 联系方式</a>
             </li>
           </ul>
         </div>
@@ -34,12 +34,12 @@
   </header>
   <main class="container mt-5">
     <div class="row mt-5">
-        <iframe width="600" height="338" src="https://lookerstudio.google.com/embed/reporting/747dc187-43bc-41ee-86d8-de1e676040dd/page/aFM6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe width="600" height="700" src="https://lookerstudio.google.com/embed/reporting/747dc187-43bc-41ee-86d8-de1e676040dd/page/aFM6C" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="row" style="margin-top: 0px;">
         <div class="col-md-8">
             <div class="card mb-3">
               <div class="card-body bg-danger text-white">
-                <h5 class="card-title">PROPIEDADES REQUERIDAS</h5>
+                <h5 class="card-title">PROPIEDADES REQUERIDAS 地块总需求</h5>
                 <p class="card-text">566</p>
               </div>
             </div>
@@ -47,7 +47,7 @@
       <div class="col-md-4">
         <div class="card mb-3 bg-secondary text-white">
           <div class="card-body">
-            <h5 class="card-title">ENTREGADAS</h5>
+            <h5 class="card-title">ENTREGADAS - 地块已交付</h5>
             <p class="card-text">362</p>
           </div>
         </div>
@@ -56,13 +56,13 @@
     <div class="col-md-4">
         <div class="card mb-3 bg-success text-white">
           <div class="card-body">
-            <h5 class="card-title">INCRITAS</h5>
+            <h5 class="card-title">INCRITAS 已征地完</h5>
             <p class="card-text">145</p>
           </div>
         </div>
         <div class="card mb-3 bg-success text-white">
             <div class="card-body">
-              <h5 class="card-title">EPV FIRMADOS</h5>
+              <h5 class="card-title">EPV FIRMADOS 准入许可</h5>
               <p class="card-text">161</p>
             </div>
         </div>
@@ -70,13 +70,13 @@
     <div class="col-md-4">
         <div class="card mb-3">
           <div class="card-body bg-success text-white">
-            <h5 class="card-title">EPE - EFECTIVA</h5>
+            <h5 class="card-title">EPE - EFECTIVA 已法官确定可以进去干活</h5>
             <p class="card-text">56</p>
           </div>
         </div>
         <div class="card mb-3" >
             <div class="card-body bg-light">
-              <h5 class="card-title">EPV GESTION</h5>
+              <h5 class="card-title">EPV GESTION 申请准入许可过程中</h5>
               <p class="card-text">66</p>
             </div>
         </div>
@@ -84,28 +84,28 @@
     <div class="col-md-4">
         <div class="card mb-3">
           <div class="card-body bg-warning">
-            <h5 class="card-title">CONTRUCCION</h5>
+            <h5 class="card-title">CONTRUCCION 在土地里有房屋</h5>
             <p class="card-text">65</p>
           </div>
         </div>
         <div class="card mb-3" >
             <div class="card-body bg-warning">
-              <h5 class="card-title">DENEGADOS</h5>
+              <h5 class="card-title">DENEGADOS 地主不同意评价</h5>
               <p class="card-text">37</p>
             </div>
         </div>
     </div>
     </div>
     <div class="col-md-6 mt-3">
-        <h5 class="text-center">Gráfico Resumen de Estado de Expropiaciones</h5>
+        <h5 class="text-center">Gráfico Resumen de Estado de Expropiaciones - 征地状态汇总图</h5>
         <canvas id="resumen"></canvas>
     </div>
     <div class="col-md-6">
-        <h5 class="text-center mt-3">Gráfico Expropiaciones del Tronco Principal</h5>
+        <h5 class="text-center mt-3">Gráfico Expropiaciones del Tronco Principal 主线征地状态汇总图</h5>
         <canvas id="tramos"></canvas>
     </div>
     <div class="col-md-12 m-1">
-        <h5 class="text-center mt-3">Gráfico Expropiaciones de Estado Obras Mayores</h5>
+        <h5 class="text-center mt-3">Gráfico Expropiaciones de Estado Obras Mayores 大工程征地状态汇总图</h5>
         <canvas id="grafico"></canvas>
     </div>
     
